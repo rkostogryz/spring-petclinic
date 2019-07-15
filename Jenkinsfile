@@ -26,7 +26,7 @@ pipeline {
                         artifacts: [
                                 [artifactId: 'spring-petclinic',
                                  classifier: '',
-                                 file      : 'spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar',
+                                 file      : 'target/spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar',
                                  type      : 'jar'
                                 ]
                         ]
